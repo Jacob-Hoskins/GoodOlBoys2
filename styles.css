@@ -30,7 +30,7 @@
   align-items: center;
 } */
 
-/* main {
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -79,7 +79,7 @@
 
 .card-black {
   background-color: rgb(39, 39, 39);
-} */
+}
 
 @media (width >= 850px) {
   main {
