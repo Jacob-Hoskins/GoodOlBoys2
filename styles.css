@@ -266,6 +266,13 @@
     color: white;
     font-size: 23px;
   }
+  .card-orange {
+    background-color: rgb(231, 143, 10);
+  }
+
+  .card-black {
+    background-color: rgb(39, 39, 39);
+  }
 }
 
 @media (width <= 500px) {
