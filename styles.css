@@ -103,7 +103,7 @@ main {
   }
 }
 
-@media (width <= 600px) {
+@media (width <= 700px) {
   main {
     display: flex;
     flex-direction: column;
