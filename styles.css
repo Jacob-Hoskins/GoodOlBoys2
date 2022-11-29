@@ -319,7 +319,7 @@
   }
 }
 
-@media only screen and (width <= 500px) {
+@media only screen and (max-width: 768px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
