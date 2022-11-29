@@ -81,7 +81,7 @@
   background-color: rgb(39, 39, 39);
 } */
 
-@media (width >= 850px) {
+@media screen (width >= 850px) {
   main {
     display: flex;
     flex-direction: row;
@@ -134,7 +134,7 @@
   }
 }
 
-@media (width <= 850px) {
+@media screen and (width <= 850px) {
   .logo-img {
     width: 35vw;
     height: 45vh;
@@ -178,7 +178,7 @@
   }
 }
 
-@media (width <= 600px) {
+@media screen and(width <= 600px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
@@ -222,7 +222,7 @@
   }
 }
 
-@media (width <= 700px) {
+@media screen and (width <= 700px) {
   main {
     display: flex;
     flex-direction: column;
@@ -274,8 +274,8 @@
     background-color: rgb(39, 39, 39);
   }
 }
-/* 
-@media (width <= 500px) {
+
+@media screen and (width <= 500px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
@@ -316,10 +316,10 @@
 
   .card-black {
     background-color: rgb(39, 39, 39);
-  } */
+  }
 }
-/* 
-@media (width <= 500px) {
+
+@media screen and (width <= 500px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
@@ -362,4 +362,4 @@
   .card-black {
     background-color: rgb(39, 39, 39);
   }
-} */
+}
