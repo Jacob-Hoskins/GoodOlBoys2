@@ -30,7 +30,7 @@
   align-items: center;
 } */
 
-main {
+/* main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -79,7 +79,7 @@ main {
 
 .card-black {
   background-color: rgb(39, 39, 39);
-}
+} */
 
 @media (width >= 850px) {
   main {
@@ -275,7 +275,51 @@ main {
   }
 }
 
-@media (width <= 500px) and (width >= 0px) {
+@media (width <= 500px) {
+  .logo-img {
+    width: 35vw;
+    height: 35vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-flex {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-flex {
+    width: 50vw;
+    height: 100vh;
+  }
+
+  .flex-seperator {
+    display: flex;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 25vw;
+    color: white;
+    font-size: 23px;
+  }
+
+  .card-orange {
+    background-color: rgb(231, 143, 10);
+  }
+
+  .card-black {
+    background-color: rgb(39, 39, 39);
+  }
+}
+
+@media screen and (width <= 500px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
