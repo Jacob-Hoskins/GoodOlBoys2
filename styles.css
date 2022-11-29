@@ -327,6 +327,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50vw;
   }
   .left-flex {
     width: 50vw;
