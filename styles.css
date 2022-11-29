@@ -321,7 +321,7 @@
 
 @media only screen and (max-width: 768px) {
   .logo-img {
-    width: 35vw;
+    width: 45vw;
     height: 35vh;
     margin: auto;
     display: flex;
