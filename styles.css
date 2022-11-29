@@ -275,7 +275,7 @@
   }
 }
 
-@media screen and (width <= 500px) {
+@media screen and (min-width <= 500px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
@@ -358,10 +358,11 @@
 
   .card-orange {
     background-color: rgb(231, 143, 10);
-    font-size: 55px;
+    font-size: 25px;
   }
 
   .card-black {
     background-color: rgb(39, 39, 39);
+    font-size: 25px;
   }
 }
