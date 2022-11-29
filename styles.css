@@ -319,7 +319,7 @@
   }
 }
 
-@media screen and (width <= 500px) {
+@media (width <= 500px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
