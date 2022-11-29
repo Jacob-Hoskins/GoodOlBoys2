@@ -275,7 +275,7 @@ main {
   }
 }
 
-@media (width <= 500px) {
+@media (width <= 500px) and (width >= 0px) {
   .logo-img {
     width: 35vw;
     height: 35vh;
