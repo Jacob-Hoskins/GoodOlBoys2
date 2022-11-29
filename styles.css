@@ -342,7 +342,7 @@
 
   .flex-seperator {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .card {
