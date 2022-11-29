@@ -81,7 +81,7 @@
   background-color: rgb(39, 39, 39);
 } */
 
-@media screen (width >= 850px) {
+@media screen and (width >= 850px) {
   main {
     display: flex;
     flex-direction: row;
@@ -357,6 +357,7 @@
 
   .card-orange {
     background-color: rgb(231, 143, 10);
+    font-size: 55px;
   }
 
   .card-black {
