@@ -318,7 +318,7 @@
     background-color: rgb(39, 39, 39);
   }
 }
-
+/* 
 @media (width <= 500px) {
   .logo-img {
     width: 35vw;
@@ -362,4 +362,4 @@
   .card-black {
     background-color: rgb(39, 39, 39);
   }
-}
+} */
