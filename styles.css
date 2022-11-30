@@ -468,6 +468,12 @@ a:visited {
     justify-content: space-evenly;
   }
 
+  .selling-point-img {
+    width: 25vw;
+    height: 25vh;
+    border-radius: 45%;
+  }
+
   .selling-point-div {
     width: 50vw;
     background-color: #d9b08c;
