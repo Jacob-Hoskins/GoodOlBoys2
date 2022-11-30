@@ -81,6 +81,101 @@
   background-color: rgb(39, 39, 39);
 } */
 
+/* selling points page */
+
+.nav-bar {
+  background-color: #17252a;
+  color: white;
+  height: 5vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.selling-page-header {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.selling-cards-pretty-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selling-points {
+  display: flex;
+  flex-direction: column;
+  margin: 3vw;
+  text-align: center;
+  padding: 1em;
+  border-bottom-left-radius: 25px;
+}
+
+.selling-points h3 {
+  font-size: 21px;
+}
+
+.selling-points p {
+  font-size: 19px;
+}
+
+.selling-points-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+}
+
+.selling-card {
+  margin: 1em;
+}
+
+.selling-blocks {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #d9b08c;
+}
+
+.selling-point-div {
+  width: 25vw;
+  background-color: #d9b08c;
+  border-bottom-left-radius: 20px;
+}
+
+.selling-point-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9b08c;
+  width: 25vw;
+  height: 25vh;
+  border-top-right-radius: 15px;
+}
+
+.selling-point-img {
+  width: 20vw;
+  height: 20vh;
+  border-radius: 45%;
+}
+
 @media screen and (width >= 850px) {
   main {
     display: flex;
