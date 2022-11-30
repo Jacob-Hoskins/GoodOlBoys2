@@ -152,6 +152,7 @@ a:visited {
   display: flex;
   flex-direction: column-reverse;
   background-color: #d9b08c;
+  padding: 15px;
 }
 
 .selling-point-div {
@@ -459,5 +460,17 @@ a:visited {
   .card-black {
     background-color: rgb(39, 39, 39);
     font-size: 25px;
+  }
+
+  .row-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .selling-point-div {
+    width: 50vw;
+    background-color: #d9b08c;
+    border-bottom-left-radius: 20px;
   }
 }
