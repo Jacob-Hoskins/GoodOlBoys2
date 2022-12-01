@@ -177,6 +177,47 @@ a:visited {
   border-radius: 45%;
 }
 
+/* WHAT WE DO PAGE */
+
+.what-we-do-body {
+  background-color: rgb(199, 247, 242);
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 25vw;
+  padding: 20px;
+  border-left: solid 9px #116466;
+  box-shadow: 3px 5px rgb(71, 71, 71);
+  margin-left: 150px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icon {
+  width: 5vw;
+  height: 5vh;
+}
+
+.top-row {
+  padding-top: 3vh;
+}
+
+.rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
 @media screen and (width >= 850px) {
   main {
     display: flex;
